@@ -1,0 +1,23 @@
+body {
+  margin: 20px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 95%;
+  height: 95%;
+}
